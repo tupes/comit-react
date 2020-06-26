@@ -33,7 +33,7 @@ My goal is to roughly spend 3 weeks on HTML and CSS, 3 weeks on JavaScript, whic
 ## Lessons
 The lessons aren't broken down by class or any particular length of time. When I finish one lesson, I'll just move on to the next one, unless there isn't much time left in that class.
 
-### Lesson 1
+### Lesson 1: Course Intro
 - Web basics: servers, browsers, HTTP, URLs, etc
 
 ### Lesson 2: HTML Text
@@ -98,3 +98,33 @@ The lessons aren't broken down by class or any particular length of time. When I
   - size
   - alignment
   - spacing
+
+### Lesson 8: CSS for Colors and Backgrounds
+
+### Lesson 9: CSS Element Box and Positioning
+
+### Lesson 10: CSS Layout
+
+### Lesson 11: Intro to JavaScript
+
+### Lesson 12: JavaScript Arrays and Objects
+
+### Lesson 13: JavaScript Functions
+
+### Lesson 14: JavaScript Asynchronous Programming
+
+### Lesson 14: JavaScript Web Programming
+
+### Lesson 15: Brief Tour of jQuery
+
+### Lesson 16: Intro to React
+
+### Lesson 17: React Components
+
+### Lesson 18: React Stateful Components
+
+### Lesson 19: React Events
+
+### Lesson 20: React Lifecycle
+
+### Lesson 21: React Forms and Validation
