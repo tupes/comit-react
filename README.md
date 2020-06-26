@@ -38,7 +38,7 @@ The most important skills to develop are problem-solving and self-learning. I'm 
 
 ## Tools
 ### Editor
-You'll need an editor for writing HTML, CSS, and JavaScript. Although there are a lot of great options out there, I strongly encourage you to use Visual Studio Code. It's now by far the most popular editor for front-end web development, and it has great functionality. There are also a ton of great extensions available, which I'll explain how to install, and some of which I'll be using:
+You'll need an editor for writing HTML, CSS, and JavaScript. Although there are a lot of great options out there, I strongly encourage you to use [Visual Studio Code](https://code.visualstudio.com/download). It's now by far the most popular editor for front-end web development, and it has great functionality. There are also a ton of great extensions available, which I'll explain how to install, and some of which I'll be using:
 - Live Server
 - Bracket Pair Colorizer 2
 - colorize
@@ -51,7 +51,7 @@ I'll be using Chrome, mostly because it's currently the most popular browser and
 Whatever browser you use, you'll need to get familiar with its developer tools. On Chrome, hit F12 to bring them up. I'll briefly go over the most important parts, like the Elements, Console, and Network tabs. 
 
 ### Git
-We'll be using git for source control. I'll be giving a brief tutorial on git and git commands, and you're free to either use a terminal or a GUI program like GitHub Desktop. 
+We'll be using git for source control. I'll be giving a brief tutorial on git and git commands, and you're free to either use a terminal or a GUI program like [GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop). 
 
 ## Lessons
 The lessons aren't broken down by class or any particular length of time. When I finish one lesson, I'll just move on to the next one, unless there isn't much time left in that class.
