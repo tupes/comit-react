@@ -1,5 +1,4 @@
-# comit-react
-ComIT Course on React
+ComIT React Course
 
 ## What is React?
 - a JavaScript framework
@@ -29,6 +28,23 @@ Modern front-end web development is based on three core technologies:
 - React is kind of the pinnacle of this trend, where almost everything is being done in JavaScript.
 
 My goal is to roughly spend 3 weeks on HTML and CSS, 3 weeks on JavaScript, which would leave 6 weeks for React and any other material I think is important for a software developer to know. But this is only an estimated outline, we'll be going at whatever pace the class as a whole thinks is best, so that everyone understands the material as we go.
+
+## Tools
+### Editor
+You'll need an editor for writing HTML, CSS, and JavaScript. Although there are a lot of great options out there, I strongly encourage you to use Visual Studio Code. It's now by far the most popular editor for front-end web development, and it has great functionality. There are also a ton of great extensions available, which I'll explain how to install, and some of which I'll be using:
+- Live Server
+- Bracket Pair Colorizer 2
+- colorize
+- CSS Peek
+- JS Refactor
+
+### Browser
+I'll be using Chrome, mostly because it's currently the most popular browser and it has good development tools. But you're free to use whatever browser you want, although keep that in mind if what you see isn't exactly the same as how it looks in my demos.
+
+Whatever browser you use, you'll need to get familiar with its developer tools. On Chrome, hit F12 to bring them up. I'll briefly go over the most important parts, like the Elements, Console, and Network tabs. 
+
+### Git
+We'll be using git for source control. I'll be giving a brief tutorial on git and git commands, and you're free to either use a terminal or a GUI program like GitHub Desktop. 
 
 ## Lessons
 The lessons aren't broken down by class or any particular length of time. When I finish one lesson, I'll just move on to the next one, unless there isn't much time left in that class.
