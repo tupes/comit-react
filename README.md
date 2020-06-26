@@ -4,8 +4,8 @@
 - a JavaScript framework
 - used for doing front-end web development
 - created by Facebook engineers
-- hugely popular
-- very well-liked by developers
+- [hugely popular](https://insights.stackoverflow.com/survey/2020#technology-web-frameworks)
+- [very well-liked by developers](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-web-frameworks)
 
 ## What We'll Need to Learn
 Since React is used for web development, first we're going to have to learn about web development.
