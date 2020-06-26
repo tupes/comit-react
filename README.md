@@ -51,3 +51,50 @@ The lessons aren't broken down by class or any particular length of time. When I
   - first look at HTML attributes
   - href
   - target
+
+### Lesson 3: HTML Lists and Tables
+- ordered lists and unordered lists
+- tables
+  - table header
+  - table rows and columns
+  - table footer
+
+### Lesson 4: HTML Embedding
+- images
+- iframes
+- audio
+- video
+- canvas
+
+### Lesson 5: HTML Forms
+- HTTP and POST method
+- form element
+- input element
+- label element
+- button element
+- form method and action attributes
+- input type and name attributes
+- input types: number, date, email
+- form target attribute
+- input autofocus and disabled attributes
+- fieldset element
+- legend element
+- button type attribute
+
+### Lesson 6: Intro to CSS
+- inline, embedded, and external
+- CSS rules
+- CSS selectors
+- id and class attributes
+
+### Lesson 7: CSS for Text
+- fonts
+  - font families
+  - font weights
+  - size
+  - style
+  - stretching
+- text 
+  - size
+  - alignment
+  - spacing
