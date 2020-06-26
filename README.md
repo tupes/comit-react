@@ -1,4 +1,4 @@
-ComIT React Course
+# ComIT React Course
 
 ## What is React?
 - a JavaScript framework
@@ -51,6 +51,8 @@ The lessons aren't broken down by class or any particular length of time. When I
 
 ### Lesson 1: Course Intro
 - Web basics: servers, browsers, HTTP, URLs, etc
+- git basics
+- editor basics
 
 ### Lesson 2: HTML Text
 - elements for breaking up your text
