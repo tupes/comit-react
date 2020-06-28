@@ -53,7 +53,7 @@ Whatever browser you use, you'll need to get familiar with its developer tools. 
 ### Git
 We'll be using git for source control. I'll be giving a brief tutorial on git and git commands, and you're free to either use a terminal or a GUI program like [GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop). 
 
-## Lessons
+# Lessons
 The lessons aren't broken down by class or any particular length of time. When I finish one lesson, I'll just move on to the next one, unless there isn't much time left in that class.
 
 ### Lesson 1: Course Intro
@@ -61,58 +61,56 @@ The lessons aren't broken down by class or any particular length of time. When I
 - git basics
 - editor basics
 
-### Lesson 2: HTML Text
-- elements for breaking up your text
-  - br and hr
-  - p
-  - h1 through h6
-- elements for formatting your text
-  - b and strong
-  - i and em
-  - s and u
-  - sub and sup
-- anchor element
-  - a
-  - first look at HTML attributes
-  - href
-  - target
+## HTML: Introduction
+### Lesson: HTML Elements and Document Structure
+### Lesson: Semantic Markup
+### Lesson: Empty Elements and Attributes
 
-### Lesson 3: HTML Lists and Tables
-- ordered lists and unordered lists
-- tables
-  - table header
-  - table rows and columns
-  - table footer
+## HTML: Text
+### Lesson: Paragraphs, Headings, and Thematic Breaks
+### Lesson: Lists
+### Lesson: Organizing Page Content
+### Lesson: Inline Elements
+### Lesson: Generic Elements and Context Attributes
+### Lesson: Character Escapes
 
-### Lesson 4: HTML Embedding
-- images
-- iframes
-- audio
-- video
-- canvas
+## HTML: Tables
+### Lesson: Table Structure
+### Lesson: Spanning Cells
+### Lesson: Table Accessibility
+### Lesson: Row and Column Groups
 
-### Lesson 5: HTML Forms
-- HTTP and POST method
-- form element
-- input element
-- label element
-- button element
-- form method and action attributes
-- input type and name attributes
-- input types: number, date, email
-- form target attribute
-- input autofocus and disabled attributes
-- fieldset element
-- legend element
-- button type attribute
+## HTML: Links
+### Lesson: href Attribute
+### Lesson: target Attribute
+### Lesson: Non-URL Links
 
-### Lesson 6: Intro to CSS
+## HTML: Images
+### Lesson: Image Formats
+### Lesson: img Element
+### Lesson: SVG Images
+### Lesson: Responsive Image Markup
+
+## HTML: Embedded Media
+### Lesson: iframes
+### Lesson: Audio and Video
+### Lesson: Object and Embed Elements
+### Lesson: Canvas
+
+## HTML: Forms
+### Lesson: How Forms Work
+### Lesson: Form Element and Name Attribute
+### Lesson: Form Controls
+### Lesson: Form Accessibility Features
+### Lesson: Form Layout and Design
+
+### Lesson: Intro to CSS
 - inline, embedded, and external
 - CSS rules
 - CSS selectors
 - id and class attributes
 
-### Lesson 7: CSS for Text
+### Lesson: CSS for Text
 - fonts
   - font families
   - font weights
@@ -124,32 +122,32 @@ The lessons aren't broken down by class or any particular length of time. When I
   - alignment
   - spacing
 
-### Lesson 8: CSS for Colors and Backgrounds
+### Lesson: CSS for Colors and Backgrounds
 
-### Lesson 9: CSS Element Box and Positioning
+### Lesson: CSS Element Box and Positioning
 
-### Lesson 10: CSS Layout
+### Lesson: CSS Layout
 
-### Lesson 11: Intro to JavaScript
+### Lesson: Intro to JavaScript
 
-### Lesson 12: JavaScript Arrays and Objects
+### Lesson: JavaScript Arrays and Objects
 
-### Lesson 13: JavaScript Functions
+### Lesson: JavaScript Functions
 
-### Lesson 14: JavaScript Asynchronous Programming
+### Lesson: JavaScript Asynchronous Programming
 
-### Lesson 14: JavaScript Web Programming
+### Lesson: JavaScript Web Programming
 
-### Lesson 15: Brief Tour of jQuery
+### Lesson: Brief Tour of jQuery
 
-### Lesson 16: Intro to React
+### Lesson: Intro to React
 
-### Lesson 17: React Components
+### Lesson: React Components
 
-### Lesson 18: React Stateful Components
+### Lesson: React Stateful Components
 
-### Lesson 19: React Events
+### Lesson: React Events
 
-### Lesson 20: React Lifecycle
+### Lesson: React Lifecycle
 
-### Lesson 21: React Forms and Validation
+### Lesson: React Forms and Validation
