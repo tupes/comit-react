@@ -130,8 +130,13 @@ The lessons aren't broken down by class or any particular length of time. When I
 ### Lesson: Box Drop Shadows
 
 ## CSS: Positioning
+### Lesson: Floating
+### Lesson: CSS Shapes
+### Lesson: Relative, Absolute, and Fixed Positioning
 
 ## CSS: Layout
+### Lesson: Flexbox
+### Lesson: CSS Grid
 
 ## CSS: Responsive Web Design
 
