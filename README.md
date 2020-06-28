@@ -154,3 +154,9 @@ The lessons aren't broken down by class or any particular length of time. When I
 ## JavaScript: Modules
 
 ## JavaScript: Asynchronous Programming
+
+## JavaScript: Browser Environment
+
+## JavaScript: Document Object Model
+
+## JavaScript: Handling Events
