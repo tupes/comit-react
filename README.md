@@ -104,50 +104,53 @@ The lessons aren't broken down by class or any particular length of time. When I
 ### Lesson: Form Accessibility Features
 ### Lesson: Form Layout and Design
 
-### Lesson: Intro to CSS
-- inline, embedded, and external
-- CSS rules
-- CSS selectors
-- id and class attributes
+## CSS: Introduction
+### Lesson: How Style Sheets Work
+### Lesson: Fundamental Concepts
+### Lesson: Units of Measurement
 
-### Lesson: CSS for Text
-- fonts
-  - font families
-  - font weights
-  - size
-  - style
-  - stretching
-- text 
-  - size
-  - alignment
-  - spacing
+## CSS: Formatting Text
+### Lesson: Font Properties
+### Lesson: Text Line Adjustments
+### Lesson: Decorations, Transformations, and Shadows
+### Lesson: Text Spacing
+### Lesson: List Bullets and Numbers
 
-### Lesson: CSS for Colors and Backgrounds
+## CSS: Colors and Backgrounds
+### Lesson: Color Values
+### Lesson: Foreground and Background
+### Lesson: Background Images
+### Lesson: Gradients
 
-### Lesson: CSS Element Box and Positioning
+## CSS: Element Box
+### Lesson: The Element Box
+### Lesson: Specifying Box Dimensions
+### Lesson: Padding, Borders, and Margins
+### Lesson: Display Types
+### Lesson: Box Drop Shadows
 
-### Lesson: CSS Layout
+## CSS: Positioning
 
-### Lesson: Intro to JavaScript
+## CSS: Layout
 
-### Lesson: JavaScript Arrays and Objects
+## CSS: Responsive Web Design
 
-### Lesson: JavaScript Functions
+## JavaScript: Introduction
 
-### Lesson: JavaScript Asynchronous Programming
+## JavaScript: Values, Types, and Operators
 
-### Lesson: JavaScript Web Programming
+## JavaScript: Program Structure
 
-### Lesson: Brief Tour of jQuery
+## JavaScript: Functions
 
-### Lesson: Intro to React
+## JavaScript: Objects and Arrays
 
-### Lesson: React Components
+## JavaScript: Higher-Order Functions
 
-### Lesson: React Stateful Components
+## JavaScript: Classes and Object-Oriented Programming
 
-### Lesson: React Events
+## JavaScript: Exceptions and Error Handling
 
-### Lesson: React Lifecycle
+## JavaScript: Modules
 
-### Lesson: React Forms and Validation
+## JavaScript: Asynchronous Programming
