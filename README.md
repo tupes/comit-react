@@ -139,6 +139,10 @@ The lessons aren't broken down by class or any particular length of time. When I
 ### Lesson: CSS Grid
 
 ## CSS: Responsive Web Design
+### Lesson: Responsive Fundamentals
+### Lesson: Breakpoints
+### Lesson: Designing Responsively
+### Lesson: Testing Responsiveness
 
 ## JavaScript: Introduction
 
