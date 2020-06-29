@@ -36,14 +36,15 @@ I'll be providing readings and assignments here. I won't be checking if you comp
 
 The most important skills to develop are problem-solving and self-learning. I'm happy to provide help for anyone who needs it, but it's important to try different things, experiment, and use the internet as a resource. There's nothing I know that you can't find on the internet!
 
+## Final Project
+Everyone will create and demo their own React project at the end of the course. If you come up with an idea for a web application you'd be interested in creating, message me with the idea. Alternatively, I'll be uploading some web APIs that can be used to provide data for a web application, and you'd be responsible for creating the React application that receives, displays, and updates the data in whatever way you think is best. I'll provide more details on these soon. 
+
 ## Tools
 ### Editor
 You'll need an editor for writing HTML, CSS, and JavaScript. Although there are a lot of great options out there, I strongly encourage you to use [Visual Studio Code](https://code.visualstudio.com/download). It's now by far the most popular editor for front-end web development, and it has great functionality. There are also a ton of great extensions available, which I'll explain how to install, and some of which I'll be using:
 - Live Server
 - Bracket Pair Colorizer 2
-- colorize
-- CSS Peek
-- JS Refactor
+- Auto Rename Tag
 
 ### Browser
 I'll be using Chrome, mostly because it's currently the most popular browser and it has good development tools. But you're free to use whatever browser you want, although keep that in mind if what you see isn't exactly the same as how it looks in my demos.
