@@ -61,133 +61,133 @@ The lessons aren't broken down by class or any particular length of time. When I
 - git basics
 - editor basics
 
-## HTML: Introduction
-### Lesson: HTML Elements and Document Structure
-### Lesson: Semantic Markup
-### Lesson: Empty Elements and Attributes
+## Lesson: HTML Introduction
+### Topic: HTML Elements and Document Structure
+### Topic: Semantic Markup
+### Topic: Empty Elements and Attributes
 
-## HTML: Text
-### Lesson: Paragraphs, Headings, and Thematic Breaks
-### Lesson: Lists
-### Lesson: Organizing Page Content
-### Lesson: Inline Elements
-### Lesson: Generic Elements and Context Attributes
-### Lesson: Character Escapes
+## Lesson: HTML Text
+### Topic: Paragraphs, Headings, and Thematic Breaks
+### Topic: Lists
+### Topic: Organizing Page Content
+### Topic: Inline Elements
+### Topic: Generic Elements and Context Attributes
+### Topic: Character Escapes
 
-## HTML: Tables
-### Lesson: Table Structure
-### Lesson: Spanning Cells
-### Lesson: Table Accessibility
-### Lesson: Row and Column Groups
+## Lesson: HTML Tables
+### Topic: Table Structure
+### Topic: Spanning Cells
+### Topic: Table Accessibility
+### Topic: Row and Column Groups
 
-## HTML: Links
-### Lesson: href Attribute
-### Lesson: target Attribute
-### Lesson: Non-URL Links
+## Lesson: HTML Links
+### Topic: href Attribute
+### Topic: target Attribute
+### Topic: Non-URL Links
 
-## HTML: Images
-### Lesson: Image Formats
-### Lesson: img Element
-### Lesson: SVG Images
-### Lesson: Responsive Image Markup
+## Lesson: HTML Images
+### Topic: Image Formats
+### Topic: img Element
+### Topic: SVG Images
+### Topic: Responsive Image Markup
 
-## HTML: Embedded Media
-### Lesson: iframes
-### Lesson: Audio and Video
-### Lesson: Object and Embed Elements
-### Lesson: Canvas
+## Lesson: HTML Embedded Media
+### Topic: iframes
+### Topic: Audio and Video
+### Topic: Object and Embed Elements
+### Topic: Canvas
 
-## HTML: Forms
-### Lesson: How Forms Work
-### Lesson: Form Element and Name Attribute
-### Lesson: Form Controls
-### Lesson: Form Accessibility Features
-### Lesson: Form Layout and Design
+## Lesson: HTML Forms
+### Topic: How Forms Work
+### Topic: Form Element and Name Attribute
+### Topic: Form Controls
+### Topic: Form Accessibility Features
+### Topic: Form Layout and Design
 
-## CSS: Introduction
-### Lesson: How Style Sheets Work
-### Lesson: Fundamental Concepts
-### Lesson: Units of Measurement
+## Lesson: CSS Introduction
+### Topic: How Style Sheets Work
+### Topic: Fundamental Concepts
+### Topic: Units of Measurement
 
-## CSS: Formatting Text
-### Lesson: Font Properties
-### Lesson: Text Line Adjustments
-### Lesson: Decorations, Transformations, and Shadows
-### Lesson: Text Spacing
-### Lesson: List Bullets and Numbers
+## Lesson: CSS Formatting Text
+### Topic: Font Properties
+### Topic: Text Line Adjustments
+### Topic: Decorations, Transformations, and Shadows
+### Topic: Text Spacing
+### Topic: List Bullets and Numbers
 
-## CSS: Colors and Backgrounds
-### Lesson: Color Values
-### Lesson: Foreground and Background
-### Lesson: Background Images
-### Lesson: Gradients
+## Lesson: CSS Colors and Backgrounds
+### Topic: Color Values
+### Topic: Foreground and Background
+### Topic: Background Images
+### Topic: Gradients
 
-## CSS: Element Box
-### Lesson: The Element Box
-### Lesson: Specifying Box Dimensions
-### Lesson: Padding, Borders, and Margins
-### Lesson: Display Types
-### Lesson: Box Drop Shadows
+## Lesson: CSS Element Box
+### Topic: The Element Box
+### Topic: Specifying Box Dimensions
+### Topic: Padding, Borders, and Margins
+### Topic: Display Types
+### Topic: Box Drop Shadows
 
-## CSS: Positioning
-### Lesson: Floating
-### Lesson: CSS Shapes
-### Lesson: Relative, Absolute, and Fixed Positioning
+## Lesson: CSS Positioning
+### Topic: Floating
+### Topic: CSS Shapes
+### Topic: Relative, Absolute, and Fixed Positioning
 
-## CSS: Layout
-### Lesson: Flexbox
-### Lesson: CSS Grid
+## Lesson: CSS Layout
+### Topic: Flexbox
+### Topic: CSS Grid
 
-## CSS: Responsive Web Design
-### Lesson: Responsive Fundamentals
-### Lesson: Breakpoints
-### Lesson: Designing Responsively
-### Lesson: Testing Responsiveness
+## Lesson: CSS Responsive Web Design
+### Topic: Responsive Fundamentals
+### Topic: Breakpoints
+### Topic: Designing Responsively
+### Topic: Testing Responsiveness
 
-## JavaScript: Introduction
+## Lesson: JavaScript Introduction
 
-## JavaScript: Values, Types, and Operators
+## Lesson: JavaScript Values, Types, and Operators
 
-## JavaScript: Program Structure
+## Lesson: JavaScript Program Structure
 
-## JavaScript: Functions
+## Lesson: JavaScript Functions
 
-## JavaScript: Objects and Arrays
+## Lesson: JavaScript Objects and Arrays
 
-## JavaScript: Higher-Order Functions
+## Lesson: JavaScript Higher-Order Functions
 
-## JavaScript: Classes and Object-Oriented Programming
+## Lesson: JavaScript Classes and Object-Oriented Programming
 
-## JavaScript: Exceptions and Error Handling
+## Lesson: JavaScript Exceptions and Error Handling
 
-## JavaScript: Modules
+## Lesson: JavaScript Modules
 
-## JavaScript: Asynchronous Programming
+## Lesson: JavaScript Asynchronous Programming
 
-## JavaScript: Browser Environment
+## Lesson: JavaScript Browser Environment
 
-## JavaScript: Document Object Model
+## Lesson: JavaScript Document Object Model
 
-## JavaScript: Handling Events
+## Lesson: JavaScript Handling Events
 
-## React: Introduction
+## Lesson: React Introduction
 
-## React: JSX
+## Lesson: React JSX
 
-## React: Props and PropTypes
+## Lesson: React Props and PropTypes
 
-## React: Children
+## Lesson: React Children
 
-## React: State in Class Components
+## Lesson: React State in Class Components
 
-## React: Component Lifecycle
+## Lesson: React Component Lifecycle
 
-## React: State in Function Components
+## Lesson: React State in Function Components
 
-## React: Input Controls
+## Lesson: React Input Controls
 
-## React: useReducer Hook
+## Lesson: React useReducer Hook
 
-## React: useEffect Hook
+## Lesson: React useEffect Hook
 
-## React: Context
+## Lesson: React Context
