@@ -56,14 +56,13 @@ We'll be using git for source control. I'll be giving a brief tutorial on git an
 # Lessons
 The lessons aren't broken down by class or any particular length of time. When I finish one lesson, I'll just move on to the next one, unless there isn't much time left in that class.
 
-### Lesson 1: Course Intro
-- Web basics: servers, browsers, HTTP, URLs, etc
-- git basics
-- editor basics
+## Lesson: Web Development Introduction
+### Topic: Internet, Servers, Browsers, HTTP, URLs, etc
+### Topic: Web Development Tools
 
 ## Lesson: HTML Introduction
 ### Topic: HTML Elements and Document Structure
-### Topic: Semantic Markup
+### Topic: Marking Up Your Content
 ### Topic: Empty Elements and Attributes
 
 ## Lesson: HTML Text
