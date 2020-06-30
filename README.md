@@ -69,21 +69,40 @@ The lessons aren't broken down by class or any particular length of time. When I
 ## Lesson: HTML Text
 ### Topic: Paragraphs, Headings, and Thematic Breaks
 ### Topic: Lists
-### Topic: Organizing Page Content
 ### Topic: Inline Elements
 ### Topic: Generic Elements and Context Attributes
 ### Topic: Character Escapes
 
+### Readings:
+Chapter 5:
+- Paragraphs
+- Headings
+- Thematic Breaks
+- Lists
+- The Inline Element Roundup (Don't worry about learning all of these in-depth, just be aware of what's available)
+- Generic Elements
+- Character Escapes
+
 ## Lesson: HTML Tables
 ### Topic: Table Structure
 ### Topic: Spanning Cells
-### Topic: Table Accessibility
 ### Topic: Row and Column Groups
+
+### Readings:
+Chapter 8:
+- How to Use Tables
+- Minimal Table Structure
+- Table Headers
+- Spanning Cells
+- Row and Column Groups
 
 ## Lesson: HTML Links
 ### Topic: href Attribute
 ### Topic: target Attribute
 ### Topic: Non-URL Links
+
+### Readings:
+Chapter 6: All
 
 ## Lesson: HTML Images
 ### Topic: Image Formats
