@@ -107,14 +107,20 @@ Chapter 6: All
 ## Lesson: HTML Images
 ### Topic: Image Formats
 ### Topic: img Element
-### Topic: SVG Images
-### Topic: Responsive Image Markup
+
+### Readings:
+Chapter 7:
+- First, a Word on Image Formats
+- The img Element
 
 ## Lesson: HTML Embedded Media
 ### Topic: iframes
 ### Topic: Audio and Video
-### Topic: Object and Embed Elements
-### Topic: Canvas
+
+### Readings:
+Chapter 10
+- Window-in-a-Window (iframe)
+- Video and Audio
 
 ## Lesson: HTML Forms
 ### Topic: How Forms Work
