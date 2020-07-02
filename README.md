@@ -98,7 +98,9 @@ Chapter 8:
 
 ### Assessment:
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data
+
 Because it involves CSS, don't worry about completing Step 7:
+
 "Add a black border just around the column that contains all the planet name row headers."
 
 ## Lesson: HTML Links
