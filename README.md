@@ -96,6 +96,9 @@ Chapter 8:
 - Spanning Cells
 - Row and Column Groups
 
+### Assessment:
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data
+
 ## Lesson: HTML Links
 ### Topic: href Attribute
 ### Topic: target Attribute
@@ -103,6 +106,10 @@ Chapter 8:
 
 ### Readings:
 Chapter 6: All
+
+### Assessment:
+This mostly involves text elements, but since it also includes links I've put it here.
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter
 
 ## Lesson: HTML Images
 ### Topic: Image Formats
