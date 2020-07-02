@@ -108,8 +108,9 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_da
 Chapter 6: All
 
 ### Assessment:
-This mostly involves text elements, but since it also includes links I've put it here.
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter
+
+This mostly involves text elements, but since it also includes links I've put it here.
 Using the `<address>` element is optional, and will cause your content to not match the provided example.
 
 ## Lesson: HTML Images
