@@ -96,6 +96,13 @@ Chapter 8:
 - Spanning Cells
 - Row and Column Groups
 
+### Assessment:
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data
+
+Because it involves CSS, don't worry about completing Step 7:
+
+"Add a black border just around the column that contains all the planet name row headers."
+
 ## Lesson: HTML Links
 ### Topic: href Attribute
 ### Topic: target Attribute
@@ -103,6 +110,12 @@ Chapter 8:
 
 ### Readings:
 Chapter 6: All
+
+### Assessment:
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter
+
+This mostly involves text elements, but since it also includes links I've put it here.
+Using the `<address>` element is optional, and will cause your content to not match the provided example.
 
 ## Lesson: HTML Images
 ### Topic: Image Formats
