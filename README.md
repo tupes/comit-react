@@ -153,6 +153,12 @@ Chapter 11
 Chapter 12
 - A Few More Selector Types: High
 
+Chapter 13
+- Pseudo-Class Selectors: High
+- Pseudo-Element Selectors: High
+- Attribute Selectors: High
+- Finally, External Style Sheets: High
+
 ## Lesson: CSS Formatting Text
 ### Readings: Chapter 12
 - Basic Font Properties: High
@@ -166,10 +172,15 @@ Chapter 12
 - Changing List Bullets and Numbers: High
 
 ## Lesson: CSS Colors and Backgrounds
-### Topic: Color Values
-### Topic: Foreground and Background
-### Topic: Background Images
-### Topic: Gradients
+### Readings: Chapter 13
+- Specifying Color Values: High
+- Foreground Color: High
+- Background Color: High
+- Clipping the Background: Low
+- Playing with Opacity: Medium
+- Background Images: High
+- The Shorthand Background Property: Medium
+- Like a Rainbow: Low
 
 ## Lesson: CSS Element Box
 ### Topic: The Element Box
