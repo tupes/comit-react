@@ -149,6 +149,9 @@ Chapter 13
 - Text Shadow: Low
 - Changing List Bullets and Numbers: High
 
+### Assessment
+[Typesetting a community school homepage](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Typesetting_a_homepage)
+
 ## Lesson: CSS Colors and Backgrounds
 ### Readings: Chapter 13
 - Specifying Color Values: High
@@ -169,6 +172,9 @@ Chapter 13
 - Margins: High
 - Assigning Display Types: High
 - Box Drop Shadows: Low
+
+### Assessment
+[Style a biography](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Using_your_new_knowledge)
 
 ## Lesson: CSS Positioning
 
