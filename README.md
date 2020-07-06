@@ -147,14 +147,23 @@ https://github.com/tupes/comit-react/blob/master/HTML/Forms/forms-assessment.md
 
 ## Lesson: CSS Introduction
 ### Readings:
-Chapter 11: All
+Chapter 11
+- All
+
+Chapter 12
+- A Few More Selector Types: High
 
 ## Lesson: CSS Formatting Text
-### Topic: Font Properties
-### Topic: Text Line Adjustments
-### Topic: Decorations, Transformations, and Shadows
-### Topic: Text Spacing
-### Topic: List Bullets and Numbers
+### Readings: Chapter 12
+- Basic Font Properties: High
+- Advanced Typography with CSS3: Low
+- Changing Text Color: High
+- Text Line Adjustments: High
+- Underlines and Other "Decorations": Medium
+- Changing Capitalization: Low
+- Spaced Out: Medium
+- Text Shadow: Low
+- Changing List Bullets and Numbers: High
 
 ## Lesson: CSS Colors and Backgrounds
 ### Topic: Color Values
