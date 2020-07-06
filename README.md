@@ -58,21 +58,12 @@ We'll be using git for source control. I'll be giving a brief tutorial on git an
 The lessons aren't broken down by class or any particular length of time. When I finish one lesson, I'll just move on to the next one, unless there isn't much time left in that class.
 
 ## Lesson: Web Development Introduction
-### Topic: Internet, Servers, Browsers, HTTP, URLs, etc
-### Topic: Web Development Tools
+### Readings: Chapter 2
+- All
 
 ## Lesson: HTML Introduction
-### Topic: HTML Elements and Document Structure
-### Topic: Marking Up Your Content
-### Topic: Empty Elements and Attributes
 
 ## Lesson: HTML Text
-### Topic: Paragraphs, Headings, and Thematic Breaks
-### Topic: Lists
-### Topic: Inline Elements
-### Topic: Generic Elements and Context Attributes
-### Topic: Character Escapes
-
 ### Readings:
 Chapter 5:
 - Paragraphs
@@ -84,10 +75,6 @@ Chapter 5:
 - Character Escapes
 
 ## Lesson: HTML Tables
-### Topic: Table Structure
-### Topic: Spanning Cells
-### Topic: Row and Column Groups
-
 ### Readings:
 Chapter 8:
 - How to Use Tables
@@ -104,10 +91,6 @@ Because it involves CSS, don't worry about completing Step 7:
 "Add a black border just around the column that contains all the planet name row headers."
 
 ## Lesson: HTML Links
-### Topic: href Attribute
-### Topic: target Attribute
-### Topic: Non-URL Links
-
 ### Readings:
 Chapter 6: All
 
@@ -118,29 +101,24 @@ This mostly involves text elements, but since it also includes links I've put it
 Using the `<address>` element is optional, and will cause your content to not match the provided example.
 
 ## Lesson: HTML Images
-### Topic: Image Formats
-### Topic: img Element
-
 ### Readings:
 Chapter 7:
-- First, a Word on Image Formats
-- The img Element
+- First, a Word on Image Formats: High
+- The img Element: High
+- Adding SVG Images: Medium
+- Responsive Image Markup: Low (for now)
 
 ## Lesson: HTML Embedded Media
-### Topic: iframes
-### Topic: Audio and Video
-
 ### Readings:
 Chapter 10
-- Window-in-a-Window (iframe)
-- Video and Audio
+- Window-in-a-Window (iframe): Medium
+- Multipurpose Embedder: Low
+- Video and Audio: Medium
+- Canvas: Low (for now)
 
 ## Lesson: HTML Forms
-### Topic: How Forms Work
-### Topic: Form Element and Name Attribute
-### Topic: Form Controls
-### Topic: Form Accessibility Features
-### Topic: Form Layout and Design
+### Readings: Chapter 9
+- All
 
 ### Assessment:
 https://github.com/tupes/comit-react/blob/master/HTML/Forms/forms-assessment.md
@@ -193,19 +171,10 @@ Chapter 13
 - Box Drop Shadows: Low
 
 ## Lesson: CSS Positioning
-### Topic: Floating
-### Topic: CSS Shapes
-### Topic: Relative, Absolute, and Fixed Positioning
 
 ## Lesson: CSS Layout
-### Topic: Flexbox
-### Topic: CSS Grid
 
 ## Lesson: CSS Responsive Web Design
-### Topic: Responsive Fundamentals
-### Topic: Breakpoints
-### Topic: Designing Responsively
-### Topic: Testing Responsiveness
 
 ## Lesson: JavaScript Introduction
 
