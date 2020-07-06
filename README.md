@@ -183,11 +183,14 @@ Chapter 13
 - Like a Rainbow: Low
 
 ## Lesson: CSS Element Box
-### Topic: The Element Box
-### Topic: Specifying Box Dimensions
-### Topic: Padding, Borders, and Margins
-### Topic: Display Types
-### Topic: Box Drop Shadows
+### Readings: Chapter 14
+- The Element Box: High
+- Specifying Box Dimensions: High
+- Padding: High
+- Borders: High
+- Margins: High
+- Assigning Display Types: High
+- Box Drop Shadows: Low
 
 ## Lesson: CSS Positioning
 ### Topic: Floating
