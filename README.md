@@ -146,9 +146,8 @@ Chapter 10
 https://github.com/tupes/comit-react/blob/master/HTML/Forms/forms-assessment.md
 
 ## Lesson: CSS Introduction
-### Topic: How Style Sheets Work
-### Topic: Fundamental Concepts
-### Topic: Units of Measurement
+### Readings:
+Chapter 11: All
 
 ## Lesson: CSS Formatting Text
 ### Topic: Font Properties
