@@ -1,0 +1,60 @@
+:root {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 3em;
+  background-color: yellow;
+}
+
+.ordered {
+  font-size: 2rem;
+}
+
+#unordered span {
+  font-style: italic;
+}
+
+strong {
+  font-size: 25px;
+}
+
+.intro-paragraph {
+  font-size: 3vw;
+}
+
+ol li {
+  background-color: violet;
+}
+
+#ordered-list > .html-item {
+  background-color: turquoise;
+}
+
+#pablo ~ li {
+  background-color: purple;
+}
+
+#pablo + li {
+  background-color: tomato;
+}
+
+ol[start="5"] {
+  color: green;
+}
+
+.last-word {
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  line-height: 1rem;
+  text-decoration: underline;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.5rem;
+}
+
+ul {
+  list-style-image: url("../Images/html-logo-tiny.png")
+}
