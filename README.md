@@ -176,11 +176,19 @@ Chapter 13
 ### Assessment
 [Style a biography](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Using_your_new_knowledge)
 
-## Lesson: CSS Positioning
-
 ## Lesson: CSS Layout
+### Readings: Chapter 16
+- All
 
-## Lesson: CSS Responsive Web Design
+## Lesson: CSS Positioning
+### Readings: Chapter 15
+- Normal Flow: High
+- Floating: Medium
+- Fancy Text Wrap with CSS Shapes: Low
+- Positioning Basics: High
+- Relative Positioning: High
+- Absolute Positioning: High
+- Fixed Positioning: High
 
 ## Lesson: JavaScript Introduction
 
