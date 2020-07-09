@@ -190,6 +190,13 @@ Chapter 13
 - Absolute Positioning: High
 - Fixed Positioning: High
 
+### Assessment
+[Layout and Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension)
+
+We won't be covering floats in class, but you'll need to use that for Requirement 7:
+"The image that is inside the article should have text wrapped around it."
+You should be able to accomplish all of the other requirements with flexbox, grid, and positioning.
+
 ## Lesson: JavaScript Introduction
 
 ## Lesson: JavaScript Values, Types, and Operators
