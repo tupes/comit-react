@@ -1,0 +1,47 @@
+:root {
+  font-size: 0.75em;
+}
+
+@media (min-width: 800px) {
+  :root {
+    font-size: 0.875em;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    font-size: 1em;
+  }
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #010f01;
+  background-image: url("../Images/tile.jpg");
+}
+
+h2 {
+  font-family: Sansita, sans-serif;
+}
+
+.panel {
+  font-size: 1rem;
+  padding: 1em;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.5em;
+}
+
+.panel > h2 {
+  margin-top: 0;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.panel.small {
+  font-size: 0.8rem;
+}
+
+.panel.large {
+  font-size: 1.2rem;
+}
