@@ -1,0 +1,64 @@
+:root {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body * + * {
+  margin-top: 1.5em;
+}
+
+header {
+  padding: 1em 1.5em;
+  color: #fff;
+  background-color: #0072b0;
+  border-radius: 0.5em;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  display: block;
+}
+
+.main {
+  width: 70%;
+  padding: 1em 1.5em;
+  background-color: #fff;
+  border-radius: 0.5em;
+}
+
+.sidebar {
+  width: 30%;
+  padding: 1.5em;
+  margin-top: 0;
+  margin-left: 1.5em;
+  background-color: #fff;
+  border-radius: 0.5em;
+}
+
+.button-link {
+  display: block;
+  padding: 0.5em;
+  color: #fff;
+  background-color: #0090C9;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.donor-link {
+  display: block;
+  color: #0072b0;
+  font-weight: bold;
+  text-decoration: none;
+}
