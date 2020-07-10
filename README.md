@@ -176,11 +176,26 @@ Chapter 13
 ### Assessment
 [Style a biography](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Using_your_new_knowledge)
 
-## Lesson: CSS Positioning
-
 ## Lesson: CSS Layout
+### Readings: Chapter 16
+- All
 
-## Lesson: CSS Responsive Web Design
+## Lesson: CSS Positioning
+### Readings: Chapter 15
+- Normal Flow: High
+- Floating: Medium
+- Fancy Text Wrap with CSS Shapes: Low
+- Positioning Basics: High
+- Relative Positioning: High
+- Absolute Positioning: High
+- Fixed Positioning: High
+
+### Assessment
+[Layout and Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension)
+
+We won't be covering floats in class, but you'll need to use that for Requirement 7:
+"The image that is inside the article should have text wrapped around it."
+You should be able to accomplish all of the other requirements with flexbox, grid, and positioning.
 
 ## Lesson: JavaScript Introduction
 
