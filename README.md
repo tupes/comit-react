@@ -197,50 +197,6 @@ We won't be covering floats in class, but you'll need to use that for Requiremen
 "The image that is inside the article should have text wrapped around it."
 You should be able to accomplish all of the other requirements with flexbox, grid, and positioning.
 
-## Lesson: JavaScript Introduction
+# [JavaScript](https://github.com/tupes/comit-react/JavaScript)
 
-## Lesson: JavaScript Values, Types, and Operators
-
-## Lesson: JavaScript Program Structure
-
-## Lesson: JavaScript Functions
-
-## Lesson: JavaScript Objects and Arrays
-
-## Lesson: JavaScript Higher-Order Functions
-
-## Lesson: JavaScript Classes and Object-Oriented Programming
-
-## Lesson: JavaScript Exceptions and Error Handling
-
-## Lesson: JavaScript Modules
-
-## Lesson: JavaScript Asynchronous Programming
-
-## Lesson: JavaScript Browser Environment
-
-## Lesson: JavaScript Document Object Model
-
-## Lesson: JavaScript Handling Events
-
-## Lesson: React Introduction
-
-## Lesson: React JSX
-
-## Lesson: React Props and PropTypes
-
-## Lesson: React Children
-
-## Lesson: React State in Class Components
-
-## Lesson: React Component Lifecycle
-
-## Lesson: React State in Function Components
-
-## Lesson: React Input Controls
-
-## Lesson: React useReducer Hook
-
-## Lesson: React useEffect Hook
-
-## Lesson: React Context
+# [React](https://github.com/tupes/comit-react/React)
