@@ -197,6 +197,6 @@ We won't be covering floats in class, but you'll need to use that for Requiremen
 "The image that is inside the article should have text wrapped around it."
 You should be able to accomplish all of the other requirements with flexbox, grid, and positioning.
 
-# [JavaScript](https://github.com/tupes/comit-react/JavaScript)
+# [JavaScript](https://github.com/tupes/comit-react/tree/master/JavaScript)
 
-# [React](https://github.com/tupes/comit-react/React)
+# [React](https://github.com/tupes/comit-react/tree/master/React)
