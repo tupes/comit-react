@@ -1,0 +1,100 @@
+
+
+button {
+  padding: 0.5em 0.7em;
+  border: 1px solid #8d8d8d;
+  background-color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.top-banner {
+  padding: 1em 0;
+  background-color: #ffd698;
+}
+
+.top-banner-inner {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.modal {
+  display: none;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.modal-body {
+  position: fixed;
+  top: 3em;
+  bottom: 3em;
+  right: 20%;
+  left: 20%;
+  padding: 2em 3em;
+  background-color: white;
+  overflow: auto;
+  z-index: 2;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.3em;
+  right: 0.3em;
+  padding: 0.3em;
+}
+
+.container {
+  width: 80%;
+  margin: 1em auto;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-label {
+  padding: 0.5em 1.5em;
+  background-color: #eee;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 2em;
+  min-width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.submenu {
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+  border: 1px solid #999;
+}
+
+.submenu > li + li {
+  border-top: 1px solid #999;
+}
+
+.submenu > li > a {
+  display: block;
+  padding: 0.5em 1.5em;
+  background-color: #eee;
+  color: #369;
+  text-decoration: none;
+  cursor: pointer;
+}
