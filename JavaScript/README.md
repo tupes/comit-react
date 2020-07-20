@@ -47,12 +47,35 @@ Chapter 4
 - All
 
 ## Lesson: JavaScript Higher-Order Functions
+### Readings:
+Chapter 5
+- All
 
 ## Lesson: JavaScript Classes and Object-Oriented Programming
+### Readings:
+Chapter 6
+- Encapsulation
+- Methods
+- Classes
+- Class Notation
+- Overriding Derived Properties
+- Polymorphism
+- Getters, Setters, and Statics
+- Inheritance
+- The instanceof Operator
 
 ## Lesson: JavaScript Exceptions and Error Handling
+### Readings:
+Chapter 8
+- All
 
 ## Lesson: JavaScript Modules
+### Readings:
+Chapter 10
+- Modules
+- Packages
+- ECMAScript Modules
+- Building and Bundling
 
 ## Lesson: JavaScript Asynchronous Programming
 
