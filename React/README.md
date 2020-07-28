@@ -36,14 +36,14 @@ The lessons aren't broken down by class or any particular length of time. When I
 - Chapter 6: Props
 - Chapter 8: PropTypes
 
-## Lesson: React Children
-### Readings
-- Chapter 9: Children
-
 ## Lesson: React State in Function Components
 ### Readings
 - Chapter 14: State in Functions
 - Chapter 15: Thinking About State
+
+## Lesson: React Children
+### Readings
+- Chapter 9: Children
 
 ## Lesson: React Input Controls
 ### Readings
