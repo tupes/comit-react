@@ -14,21 +14,31 @@ export const App = () => {
   };
 
   const handleAddItem = () => {
-    setItems([
-      ...items,
-      {
-        id: items.length + 1,
-        description: description,
-        isDone: false,
-      },
-    ]);
+    const newItem = {
+      id: items.length + 1,
+      description: description,
+      isComplete: false,
+    };
+
+    const updatedItems = [...items, newItem];
+    setItems(updatedItems);
     setDescription("");
   };
 
-  const handleCompleteClick = () => {};
+  const handleCompleteClick = (id) => {
+    const updatedItems = items.map((item) => {
+      if (id === item.id) {
+        return { ...item, isComplete: true };
+      }
+      return item;
+    });
+    setItems(updatedItems);
+  };
 
-  const activeItems = () => items.filter((item) => !item.isDone);
-  const completedItems = () => items.filter((item) => item.isDone);
+  const handleDeleteClick = (id) => {
+    const updatedItems = items.filter((item) => item.id !== id);
+    setItems(updatedItems);
+  };
 
   return (
     <div>
@@ -41,11 +51,15 @@ export const App = () => {
       />
 
       <ActiveItems
-        items={activeItems()}
+        items={items.filter((item) => !item.isComplete)}
         handleCompleteClick={handleCompleteClick}
+        handleDeleteClick={handleDeleteClick}
       />
 
-      <CompletedItems items={completedItems()} />
+      <CompletedItems
+        items={items.filter((item) => item.isComplete)}
+        handleDeleteClick={handleDeleteClick}
+      />
     </div>
   );
 };
