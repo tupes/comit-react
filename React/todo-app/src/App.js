@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 
 import { AddTodoItem } from "./AddTodoItem";
-import { ActiveItems } from "./ActiveItems";
-import { CompletedItems } from "./CompletedItems";
+import { TodoItems } from "./TodoItems";
 
 export const App = () => {
   const [description, setDescription] = useState("");
@@ -11,6 +10,11 @@ export const App = () => {
   const handleChange = (event) => {
     console.log(event.target.value);
     setDescription(event.target.value);
+    localStorage.setItem("description", event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
   };
 
   const handleAddItem = () => {
@@ -28,7 +32,7 @@ export const App = () => {
   const handleCompleteClick = (id) => {
     const updatedItems = items.map((item) => {
       if (id === item.id) {
-        return { ...item, isComplete: true };
+        return { ...item, isComplete: !item.isComplete };
       }
       return item;
     });
@@ -48,18 +52,24 @@ export const App = () => {
         description={description}
         handleChange={handleChange}
         handleClick={handleAddItem}
+        handleSubmit={handleSubmit}
       />
 
-      <ActiveItems
+      <TodoItems
         items={items.filter((item) => !item.isComplete)}
         handleCompleteClick={handleCompleteClick}
         handleDeleteClick={handleDeleteClick}
-      />
+      >
+        <h2>Active Items</h2>
+      </TodoItems>
 
-      <CompletedItems
+      <TodoItems
         items={items.filter((item) => item.isComplete)}
+        handleCompleteClick={handleCompleteClick}
         handleDeleteClick={handleDeleteClick}
-      />
+      >
+        <h2>Completed Items</h2>
+      </TodoItems>
     </div>
   );
 };
