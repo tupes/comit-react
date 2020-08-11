@@ -32,7 +32,7 @@ export const Tweet = () => {
           <Time time={tweet.timestamp} />
         </div>
 
-        <Message />
+        <Message message={tweet.message} />
 
         <div className="buttons">
           <ReplyButton />
