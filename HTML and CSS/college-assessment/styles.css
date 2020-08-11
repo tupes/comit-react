@@ -1,0 +1,99 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1400px;
+  font-size: 10px;
+  line-height: 1.4em;
+  letter-spacing: 0.01em;
+}
+
+/* Layout */
+
+.container {
+  display: grid;
+  grid-template-columns: 5fr 3fr 2fr;
+}
+
+section {
+  grid-column: 1 / 2;
+}
+
+aside {
+  grid-column: 2 / 3;
+}
+
+nav {
+  grid-column: 3 / 4;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+header {
+  text-align: center;
+}
+
+h1,
+h2 {
+  letter-spacing: 0.03em;
+}
+
+h2 + p {
+  text-indent: 20px;
+}
+
+a {
+  color: #a66;
+}
+
+a:focus {
+  outline-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  background-color: blue;
+}
+
+a[href^="http"]::after {
+  content: url(external-link.png);
+}
+
+nav ul {
+  margin-right: 0.5em;
+}
+
+nav li {
+  margin-bottom: 1em;
+  padding: 1em 3.5em;
+  list-style-type: none;
+  text-align: center;
+  border: 1px solid #a66;
+}
+
+nav li a {
+  text-decoration: none;
+}

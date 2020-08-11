@@ -1,0 +1,94 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Example</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Form Example</h1>
+
+    <form
+      method="POST"
+      action="http://localhost:80/form"
+      autocomplete="off"
+      target="_blank"
+    >
+      <p>
+        <label
+          >Title
+          <input type="text" name="Title" required autocomplete="on" />
+        </label>
+      </p>
+
+      <p>
+        <label
+          >Edition
+          <input type="number" name="Edition" required />
+        </label>
+      </p>
+
+      <p>
+        <label
+          >Year
+          <input type="date" name="Year" />
+        </label>
+      </p>
+
+      <p>
+        <label
+          >Color
+          <input type="color" name="Color" />
+        </label>
+      </p>
+
+      <p>
+        <label
+          >Email
+          <input type="email" name="Email" />
+        </label>
+      </p>
+
+      <p>
+        <label
+          >In Print<br />
+          <label
+            >Canada<input type="checkbox" name="in-print" value="Canada"
+          /></label>
+          <label
+            >Europe<input type="checkbox" name="in-print" value="Europe"
+          /></label>
+        </label>
+      </p>
+
+      <p>
+        <label
+          >Author Status<br />
+          <label
+            >Active<input type="radio" name="status" value="Active"
+          /></label>
+          <label
+            >Retired<input type="radio" name="status" value="Retired"
+          /></label>
+          <label
+            >Deceased<input type="radio" name="status" value="Deceased"
+          /></label>
+        </label>
+      </p>
+
+      <p>
+        <label
+          >Author Status
+          <select name="status-dropdown">
+            <option>Active</option>
+            <option>Retired</option>
+            <option>Deceased</option>
+          </select>
+        </label>
+      </p>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+      <button type="button">Special Action</button>
+    </form>
+  </body>
+</html>
