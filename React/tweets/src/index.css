@@ -1,8 +1,13 @@
 :root {
+  --large-space: 1.5rem;
   --medium-space: 0.6rem;
   --small-space: 0.3rem;
 
+  --large-font: 1.4em;
+  --small-font: 0.8em;
+
   --dark-grey: #8899a6;
+  --light-grey: #aab8c2;
 
   --dot: "\00b7";
 }
@@ -13,6 +18,7 @@ body {
 
 .tweet {
   display: flex;
+  gap: var(--medium-space);
   width: 35rem;
   min-height: 4rem;
   border: 1px solid #ccc;
@@ -22,28 +28,26 @@ body {
 }
 
 .avatar {
-  flex: 1;
-  height: 3rem;
+  width: 48px;
+  height: 48px;
   border-radius: var(--small-space);
-  margin-right: var(--medium-space);
 }
 
 .content {
-  flex: 9;
   display: flex;
+  gap: var(--small-space);
   flex-direction: column;
   justify-content: space-between;
 }
 
 .name {
   font-weight: bold;
-  margin-bottom: 0.5rem;
   margin-right: var(--small-space);
 }
 
 .handle {
   color: var(--dark-grey);
-  font-size: 0.8rem;
+  font-size: var(--small-font);
 }
 
 .time {
@@ -54,4 +58,20 @@ body {
 .time::before {
   content: var(--dot);
   padding-right: var(--small-space);
+}
+
+.buttons {
+  display: flex;
+  gap: var(--large-space);
+  font-size: var(--large-font);
+  color: var(--light-grey);
+}
+
+.like-count,
+.retweet-count {
+  position: relative;
+  bottom: var(--tiny-space);
+  font-size: var(--small-font);
+  margin-left: calc(var(--small-space) + var(--tiny-space));
+  font-weight: bold;
 }

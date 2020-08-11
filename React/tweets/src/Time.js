@@ -1,5 +1,6 @@
 import React from "react";
+import moment from "moment";
 
-export default function Time() {
-  return <span className="time">3hr ago</span>;
+export default function Time(props) {
+  return <span className="time">{moment(props.time).fromNow()}</span>;
 }

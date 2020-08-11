@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function ReplyButton() {
-  return <div></div>;
+  return <i className="fa fa-reply" />;
 }

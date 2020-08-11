@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Author() {
+export default function Author(props) {
   return (
     <span>
-      <span className="name">Name</span>
-      <span className="handle">@handle</span>
+      <span className="name">{props.author.name}</span>
+      <span className="handle">@{props.author.handle}</span>
     </span>
   );
 }

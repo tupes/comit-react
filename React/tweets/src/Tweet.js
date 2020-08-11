@@ -11,21 +11,33 @@ import LikeButton from "./LikeButton";
 import MoreOptionsButton from "./MoreOptionsButton";
 
 export const Tweet = () => {
+  const tweet = {
+    message: "Something about cats",
+    gravatar: "xyz",
+    author: {
+      handle: "catperson",
+      name: "IAMA Cat Person",
+    },
+    likes: 8,
+    retweets: 4,
+    timestamp: "2016-07-30 21:24:37",
+  };
+
   return (
     <div className="tweet">
-      <Avatar />
+      <Avatar hash={tweet.gravatar} />
       <div className="content">
         <div>
-          <Author />
-          <Time />
+          <Author author={tweet.author} />
+          <Time time={tweet.timestamp} />
         </div>
 
         <Message />
 
         <div className="buttons">
           <ReplyButton />
-          <RetweetButton />
-          <LikeButton />
+          <RetweetButton count={tweet.retweets} />
+          <LikeButton count={tweet.likes} />
           <MoreOptionsButton />
         </div>
       </div>
