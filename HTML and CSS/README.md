@@ -1,3 +1,21 @@
+# HTML Topics
+
+## Text
+- [letter assessment](): `strong`, `em`, `sub`, `sup`, `time`, `abbr`, `q`, `cite`, `address`
+
+## Lists
+- [letter assessment](): `ul`, `ol`, `li`, `dl`, `dt`, `dd`
+
+## Tables
+- [planets assessment](): `thead`, `tbody`, `th`, `caption`, colspan, rowspan, scope 
+
+## Images
+- [portfolio example](): `figure`, `figcaption`, `img`
+
+## Forms
+- [form example](): `form`, `input`, `label`, `select`, `option`, `button`
+
+
 # CSS Topics
 
 ## Pseudo-class Selectors
