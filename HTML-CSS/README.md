@@ -49,3 +49,25 @@
 
 ## Media Queries
 - [panel example](panel-example)
+
+
+# CSS Tips
+
+### Units
+- avoid using pixels (px). Setting an element's width to 800px will look very different between a computer monitor, a smartphone, and a projector screen mounted on a wall.
+- instead, use 'em' when giving values for `padding`, `margin`, `height`, `width`, and `border-radius`. This will scale to the appropriate size if the element inherits a different font size or the user changes the font settings.
+- use 'rem' for `font-size`, because using 'em' can lead to unpredictable results. The default size of 1rem is 16px.
+- using px for a `border` is fine, because it'll usually be 1px.
+- use unitless numbers for `line-height`, due to a quirk in how values are inherited.
+
+### CSS variables
+- create variables for recurring values, like colors or standard sizes.
+- this makes it much easier to change values.
+
+### Universal border-box fix
+
+### Element height
+
+### Spacing elements: lobotomized owl selector
+
+### Layout
