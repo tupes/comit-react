@@ -5,7 +5,7 @@ import { TodoItem } from "./TodoItem";
 export const TodoItems = (props) => {
   return (
     <section>
-      {props.children}
+      <h2>{props.header}</h2>
 
       <table>
         <tbody>

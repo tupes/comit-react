@@ -1,19 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export const TodoItem = ({ item, ...props }) => {
+export const TodoItem = (props) => {
   return (
     <tr>
-      <td>{item.description}</td>
+      <td>{props.item.description}</td>
       <td>
         <input
           type="checkbox"
-          checked={item.isComplete}
-          onChange={() => props.handleCompleteClick(item.id)}
+          checked={props.item.isComplete}
+          onChange={() => props.handleCompleteClick(props.item.id)}
         />
       </td>
       <td>
-        <button onClick={() => props.handleDeleteClick(item.id)}>Delete</button>
+        <button onClick={() => props.handleDeleteClick(props.item.id)}>
+          Delete
+        </button>
       </td>
     </tr>
   );

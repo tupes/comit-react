@@ -10,7 +10,6 @@ export const App = () => {
   const handleChange = (event) => {
     console.log(event.target.value);
     setDescription(event.target.value);
-    localStorage.setItem("description", event.target.value);
   };
 
   const handleSubmit = (event) => {
@@ -56,20 +55,18 @@ export const App = () => {
       />
 
       <TodoItems
+        header="Active Items"
         items={items.filter((item) => !item.isComplete)}
         handleCompleteClick={handleCompleteClick}
         handleDeleteClick={handleDeleteClick}
-      >
-        <h2>Active Items</h2>
-      </TodoItems>
+      />
 
       <TodoItems
+        header="Completed Items"
         items={items.filter((item) => item.isComplete)}
         handleCompleteClick={handleCompleteClick}
         handleDeleteClick={handleDeleteClick}
-      >
-        <h2>Completed Items</h2>
-      </TodoItems>
+      />
     </div>
   );
 };
