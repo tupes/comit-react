@@ -23,7 +23,8 @@ export const files = [
     type: "file",
     updated_at: "2016-07-18 21:24:00",
     latestCommit: {
-      message: "Added a readme",
+      message:
+        "Added a readme with a really long commit message to test the CommitMessage component",
     },
   },
 ];

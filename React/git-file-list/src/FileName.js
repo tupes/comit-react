@@ -1,10 +1,14 @@
 import React from "react";
 
-export default function FileName({ name, type }) {
+export default function FileName(props) {
   return (
     <>
-      <td className="file-icon">{type}</td>
-      <td className="file-name">{name}</td>
+      <i
+        className={`fa ${
+          props.fileType === "folder" ? "fa-folder" : "fa-file-text-o"
+        }`}
+      />
+      <span className="file-name">{props.fileName}</span>
     </>
   );
 }

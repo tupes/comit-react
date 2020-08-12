@@ -1,15 +1,16 @@
 import React from "react";
+import moment from "moment";
 
 import FileName from "./FileName";
-import CommitMessage from "./CommitMessage";
-import Time from "./Time";
 
 export default function FileListItem({ file }) {
   return (
     <>
-      <FileName name={file.name} type={file.type} />
-      <CommitMessage message={file.latestCommit.message} />
-      <Time time={file.updated_at} />
+      <td className="file-title">
+        <FileName fileType={file.type} fileName={file.name} />
+      </td>
+      <td className="message">{file.latestCommit.message}</td>
+      <td className="time">{moment(file.updated_at).fromNow()}</td>
     </>
   );
 }

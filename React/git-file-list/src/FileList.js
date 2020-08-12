@@ -6,10 +6,10 @@ import FileListItem from "./FileListItem";
 
 export default function FileList() {
   return (
-    <table className="file-list">
+    <table>
       <tbody>
         {files.map((file) => (
-          <tr key={file.id}>
+          <tr className="file" key={file.id}>
             <FileListItem file={file} />
           </tr>
         ))}
