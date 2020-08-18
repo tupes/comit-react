@@ -86,6 +86,16 @@ The lessons aren't broken down by class or any particular length of time. When I
 
 ---
 
+## Lesson: Incorporating Data
+### Readings
+- Pure React Chapter 13: API Requests in React
+- Learning React Chapter 8: Incorporating Data
+  - Requesting Data
+    - Sending Data with a Request
+    - Handling Promise States
+
+---
+
 ## Lesson: Context
 ### Readings
 - Pure React Chapter 19: The Context API
