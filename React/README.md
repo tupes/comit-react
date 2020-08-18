@@ -63,6 +63,7 @@ The lessons aren't broken down by class or any particular length of time. When I
 
 ### Example Applications
 - [To-Do List](todo-app)
+- [E-Commerce Application](https://github.com/tupes/comit-react-shopper-app)
 
 ---
 
