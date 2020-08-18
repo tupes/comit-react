@@ -30,6 +30,10 @@ The lessons aren't broken down by class or any particular length of time. When I
 
 ## Lesson: JSX
 ### Readings
+- Learning React Chapter 5: React with JSX
+  - React Elements as JSX
+  - Recipes as JSX
+  - React Fragments
 - Pure React Chapter 3: JSX
 - Pure React Chapter 4: Working with JSX
 
@@ -49,18 +53,23 @@ The lessons aren't broken down by class or any particular length of time. When I
 
 ## Lesson: Input Controls
 ### Readings
+- Learning React Chapter 6: React State Management
+  - Building Forms
+    - Controlled Components
 - Pure React Chapter 16: Input Controls
   - Controlled Inputs
 
 ## Lesson: Children
 ### Readings
-- Chapter 9: Children
+- Pure React Chapter 9: Children
 
 ## Lesson: useEffect Hook
 ### Readings
 - Learning React Chapter 7: Enhancing Components with Hooks
   - Introducing useEffect
     - The Dependency Array
+    - Deep Checking Dependencies
+    - Rules to Follow with Hooks
 - Pure React Chapter 18: The useEffect Hook
 
 ## Lesson: Context
