@@ -46,6 +46,10 @@ The lessons aren't broken down by class or any particular length of time. When I
 - Pure React Chapter 6: Props
 - Pure React Chapter 7: Example: Tweet With Props
 
+### Example Applications
+- [Tweet Component](tweets)
+- [Git File List](git-file-list)
+
 ---
 
 ## Lesson: State in Function Components
@@ -56,6 +60,10 @@ The lessons aren't broken down by class or any particular length of time. When I
   - State in Component Trees
 - Pure React Chapter 14: State in Functions
 - Pure React Chapter 15: Thinking About State
+
+### Example Applications
+- [To-Do List](todo-app)
+- [E-Commerce Application](https://github.com/tupes/comit-react-shopper-app)
 
 ---
 
