@@ -16,47 +16,86 @@ My goal is to spend roughly 3 weeks React, which would leave 3 weeks for any oth
 [React Dev Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 
 # Learning Materials
-We'll be using the book "Pure React". All chapter readings listed below refer to this book.
+- Learning React
+- Pure React
+- Fullstack React
 
 # Lessons
 The lessons aren't broken down by class or any particular length of time. When I finish one lesson, I'll just move on to the next one, unless there isn't much time left in that class.
 
-## Lesson: React Introduction
+## Lesson: Introduction
 ### Readings
-- Chapter 1: Introduction
-- Chapter 2: Hello World
+- Pure React Chapter 1: Introduction
+- Pure React Chapter 2: Hello World
 
-## Lesson: React JSX
-### Readings
-- Chapter 3: JSX
-- Chapter 4: Working with JSX
+---
 
-## Lesson: React Props and PropTypes
+## Lesson: JSX
 ### Readings
-- Chapter 6: Props
-- Chapter 8: PropTypes
+- Learning React Chapter 5: React with JSX
+  - React Elements as JSX
+  - Recipes as JSX
+  - React Fragments
+- Pure React Chapter 3: JSX
+- Pure React Chapter 4: Working with JSX
 
-## Lesson: React State in Function Components
-### Readings
-- Chapter 14: State in Functions
-- Chapter 15: Thinking About State
+--- 
 
-## Lesson: React Children
+## Lesson: Props
 ### Readings
-- Chapter 9: Children
+- Pure React Chapter 6: Props
+- Pure React Chapter 7: Example: Tweet With Props
 
-## Lesson: React Input Controls
-### Readings
-- Chapter 16: Input Controls
+---
 
-## Lesson: React useReducer Hook
+## Lesson: State in Function Components
 ### Readings
-- Chapter 17: The useReducer Hook
+- Learning React Chapter 6: React State Management
+  - Building a Star Rating Component
+  - The useState Hook
+  - State in Component Trees
+- Pure React Chapter 14: State in Functions
+- Pure React Chapter 15: Thinking About State
 
-## Lesson: React useEffect Hook
-### Readings
-- Chapter 18: The useEffect Hook
+---
 
-## Lesson: React Context
+## Lesson: Input Controls
 ### Readings
-- Chapter 19: The Context API
+- Learning React Chapter 6: React State Management
+  - Building Forms
+    - Controlled Components
+- Pure React Chapter 16: Input Controls
+  - Controlled Inputs
+
+---
+
+## Lesson: Children
+### Readings
+- Pure React Chapter 9: Children
+
+---
+
+## Lesson: useEffect Hook
+### Readings
+- Learning React Chapter 7: Enhancing Components with Hooks
+  - Introducing useEffect
+    - The Dependency Array
+    - Deep Checking Dependencies
+    - Rules to Follow with Hooks
+- Pure React Chapter 18: The useEffect Hook
+
+---
+
+## Lesson: Incorporating Data
+### Readings
+- Pure React Chapter 13: API Requests in React
+- Learning React Chapter 8: Incorporating Data
+  - Requesting Data
+    - Sending Data with a Request
+    - Handling Promise States
+
+---
+
+## Lesson: Context
+### Readings
+- Pure React Chapter 19: The Context API
