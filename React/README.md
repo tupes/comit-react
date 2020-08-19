@@ -55,6 +55,29 @@ The lessons aren't broken down by class or any particular length of time. When I
 - The properties are similarly applied to the new DOM element: the properties are added to the tag as attributes, and the child text is added as text within the element.
 - A React element is just a JavaScript literal that tells React how to construct the DOM element.
 
+### ReactDOM
+- Once we’ve created a React element, we’ll want to see it in the browser. 
+- We can render a React element, including its children, to the DOM with ReactDOM.render. The element we want to render is passed as the first argument, and the second argument is the target node, where we should render the element:  
+```
+const dish = React.createElement("h1", null, "Baked Salmon");
+ReactDOM.render(dish, document.getElementById("root"));
+```
+
+### Constructing Elements with Data
+- The major advantage of using React is its ability to separate data from UI elements.
+- Since React is just JavaScript, we can add JavaScript logic to help us build the React component tree.
+- For example, we can map over an array of ingredients and create a list item for each one:  
+```
+React.createElement(
+  "ul",
+  { className: "ingredients" },
+  items.map(ingredient => React.createElement("li", null, ingredient))
+);
+```
+- In this example, each string is displayed in the list item’s children as text, and the value for each ingredient is displayed as the list item.
+- When we build a list of child elements by iterating through an array, React likes each of those elements to have a key property, which helps it update the DOM efficiently. To fix our example, make this change:  
+`React.createElement("li", { key: i }, ingredient)`
+
 ---
 
 ## Lesson: JSX
