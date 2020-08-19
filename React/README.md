@@ -290,12 +290,6 @@ props.
 
 ---
 
-## Lesson: Children
-### Readings
-- Pure React Chapter 9: Children
-
----
-
 ## Lesson: useEffect Hook
 ### Readings
 - Learning React Chapter 7: Enhancing Components with Hooks
@@ -317,6 +311,23 @@ props.
 
 ---
 
+# If Time Permits
+
+## Lesson: React Router
+### Readings
+- Learning React Chapter 11: React Router
+
 ## Lesson: Context
 ### Readings
+- Learning React Chapter 6: React State Management
+  - React Context
 - Pure React Chapter 19: The Context API
+
+## Lesson: useReducer Hook
+### Readings
+- Learning React Chapter 7: Enhancing Components with Hooks
+  - Improving Code with useReducer
+  - useReducer to Handle Complex State
+- Pure React Chapter 17: The useReducer Hook
+  
+## Lesson: Redux
