@@ -25,8 +25,35 @@ The lessons aren't broken down by class or any particular length of time. When I
 
 ## Lesson: Introduction
 ### Readings
+- Learning React Chapter 4: How React Works
 - Pure React Chapter 1: Introduction
 - Pure React Chapter 2: Hello World
+
+### Page Setup
+- In order to work with React in the browser, we need to include two libraries: React and ReactDOM.
+- React is the library for creating views.
+- ReactDOM is the library used to actually render the UI in the browser.
+
+### React Elements
+**What we've already learned in this course:**
+- HTML is simply a set of instructions that a browser follows when constructing the DOM.
+- The elements that make up an HTML document become DOM elements when the browser loads HTML and renders the user interface.
+- In HTML, elements relate to one another in a hierarchy that resembles a family tree.
+- The DOM API is a collection of objects that JavaScript can use to interact with the browser to modify the DOM. When we used
+`document.createElement` and `document.appendChild` in our todo-list application, we were working with the DOM API.
+
+**React**
+- React is a library that’s designed to update the browser DOM for us.
+- With React, we do not interact with the DOM API directly. Instead, we provide instructions for what we want React to build, and React will take care of rendering and reconciling the elements we’ve instructed it to create.
+- The browser DOM is made up of DOM elements. Similarly, the React DOM is made up of React elements. DOM elements and React elements may look the same, but they’re actually quite different.
+- A React element is a description of what the actual DOM element should look like. In other words, React elements are the instructions for how the browser DOM should be created.
+- We can create a React element to represent an `h1` using `React.createElement`:  
+`React.createElement("h1", { id: "recipe-0" }, "Baked Salmon");`
+- The first argument defines the type of element we want to create. In this case, we want to create an `h1` element. The second argument represents the element’s properties. This `h1` currently has an `id` of "recipe-0". The third argument represents the element’s children: any nodes that are inserted between the opening and closing tag (in this case, just some text).
+- During rendering, React will convert this element to an actual DOM element:  
+`<h1 id="recipe-0">Baked Salmon</h1>`
+- The properties are similarly applied to the new DOM element: the properties are added to the tag as attributes, and the child text is added as text within the element.
+- A React element is just a JavaScript literal that tells React how to construct the DOM element.
 
 ---
 
