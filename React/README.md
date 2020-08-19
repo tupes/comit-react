@@ -192,8 +192,43 @@ function greet(name) {
 - Where functions have arguments, components have props: Props let you pass data to your components.
 
 ### Passing Props
+- As an example, for this component we’re passing a string for `className`, a number for the `age` prop, and an
+actual JavaScript expression as the `name`:  
+```
+function Dave() {
+  const firstName = "Dave";
+  const lastName = "Ceddia";
+  return (
+    <Person
+      className='person'
+      age={33}
+      name={firstName + ' ' + lastName} />
+  );
+}
+```
+- It’s important to understand that the JS inside the braces must be an expression, not a statement.
+- Here are a few things you can do inside JSX expressions:
+  - Math, concatenation: {7 + 5} or {'Your' + 'Name'}
+  - Function calls: {this.getFullName(person)}
+  - Ternary (?) operator: {name === 'Dave' ? 'me' : 'not me'}
+  - Boolean expressions: {isEnabled && 'enabled'}
+- Here are some things you cannot do:
+  - Define new variables with let, const, and var
+  - Use if, for, while, etc.
+  - Define functions with function
+- All of the rules that apply to function arguments apply to JSX expressions, so when you’re trying to decide what to put in a JSX expression, ask yourself, “Could I pass this as a function argument?”
 
 ### Receiving Props
+- Props are passed as an object, and are the first argument to a component function. For example:  
+```
+function Hello(props) {
+  return (
+    <span>Hello, {props.name}</span>
+  );
+}
+// Used like:
+<Hello name="Dave"/>
+```
 - One important thing to know is that props are *read-only*: components that receive props must not change them.
 - In React, data flows one way: props are read-only, and can only be passed down to children.
 
