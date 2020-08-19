@@ -253,6 +253,31 @@ function Hello(props) {
 - [To-Do List](todo-app)
 - [E-Commerce Application](https://github.com/tupes/comit-react-shopper-app)
 
+### useState Hook
+- We incorporate state into a function component using a React feature called "Hooks". 
+- Hooks contain reusable code logic that is separate from the component tree, and allow us to hook up functionality to our
+components.
+- React ships with several built-in hooks, with the `useState` hook used to add state to our React components.
+- The useState hook is a function that we can invoke to return an array, with the first value of that
+array being the state variable we want to use, and the second value being a function that can be used to change the state value.
+- The most important thing to remember about Hooks is that they can cause the component they’re hooked into to rerender. 
+- Every time we invoke the function to change the value of a state variable, the function component will be reinvoked by the hook, and it will render again, this time with a new value for the state variable. 
+- This is why Hooks are such a killer feature: when data within the hook changes, they have the power to rerender the component they’re hooked into with new data.
+
+### State in Component Trees
+- It’s not a great idea to use state in every single component. 
+- Having state data distributed throughout too many of your components will make it harder to track down bugs and make changes within your application, because it’s hard to keep track of where the state values live within your component tree. 
+- It’s easier to understand your application’s state, or state for a specific feature, if you manage it from one location. 
+- There are several approaches to this methodology, but the one we've seen so far is storing state at the root of the component tree and passing it down to child components via props.
+- A pure component is a function component that does not contain state, and so will always render the same user interface given the same props.
+- If a child component needs to update state, we'll need to collect interactions from it and send them back up the tree to the component where the state is defined.
+- Just as we passed data down a component tree via props, interactions can be passed back up the tree along with data via function
+props.
+
+### Tools
+- The React developer tools will show you which Hooks are incorporated with specific components.
+- As we interact with the app, we can watch the state value change and the component tree rerender with the corresponding value.
+
 ---
 
 ## Lesson: Input Controls
