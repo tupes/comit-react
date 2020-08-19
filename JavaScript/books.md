@@ -1,0 +1,111 @@
+## The JavaScript Language
+- Fundamentals
+  - variables
+  - data types
+  - type conversions
+  - operators
+  - comparisons
+  - conditional operators
+  - logical operators
+  - loops: while and for
+  - the switch statement
+  - functions
+  - function expressions and arrows
+- Objects
+  - objects
+- Data types
+  - numbers
+  - strings
+  - arrays
+  - array methods
+  - iterables
+  - Map, Set
+  - Object.keys, values, entries
+  - destructuring assignment
+  - JSON methods, toJSON
+- Advanced Functions
+  - rest parameters and spread operator
+  - function object, NFE
+
+## Secrets of the JavaScript Ninja
+- Functions: definitions and arguments
+  - functions as first-class objects
+  - callback functions
+  - storing functions
+  - defining functions
+    - function declarations
+    - function expressions
+    - arrow functions
+  - arguments and parameters
+    - rest parameters
+    - default parameters
+- Functions: understanding function invocation
+- Functions: closures and scopes
+
+## Simplifying JavaScript
+- Variables
+  - const
+  - scope conflicts
+  - block scoped variables
+  - template literals
+- Arrays
+  - array basics
+  - includes method
+  - spread operator for arrays
+- Collections
+  - objects
+  - Object.assign
+  - spread operator for objects
+  - Map
+  - spread operator for Maps
+  - creating Maps
+  - Set
+- Conditionals
+  - falsy values
+  - ternary operator
+  - short-circuiting
+- Loops
+  - arrow functions
+  - array methods
+  - map method
+  - filter and find methods
+  - forEach method
+  - chaining methods
+  - reduce method
+  - for-in and for-of loops
+- Parameters and Return Statements
+  - default parameters
+  - object destructuring
+  - key-value assignment
+  - rest operator
+- Functions
+  - function testability
+  - arrow functions
+  - partially applied functions
+  - currying
+  - context for arrow functions
+
+## Rediscovering JavaScript
+- Variables and Constants
+  - var
+  - let
+  - mutability
+  - const
+  - const vs let
+- Function Arguments
+  - `arguments`
+  - rest parameter
+  - spread operator
+  - default parameters
+- Iterators and Symbols
+  - for loops
+  - Symbol
+  - custom iterators and generators
+  - infinite iterators
+- Arrow Functions
+- Literals and Destructuring
+  - template literals
+  - multiline strings
+  - tagged template
+  - object literals
+  - destructuring
