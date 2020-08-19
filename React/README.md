@@ -175,6 +175,34 @@ elements:
 - [Tweet Component](tweets)
 - [Git File List](git-file-list)
 
+### Props
+- Where HTML elements have “attributes,” React components have “props” (short for “properties”). It’s a different name for essentially the same thing.
+- For example, let's say you have this function:  
+```
+function greet() {
+  return "Hi Dave";
+}
+```
+- If you wanted this function to be able to say 'Hi' to more people than just 'Dave', we'd pass the name as an argument:  
+```
+function greet(name) {
+  return "Hi " + name;
+}
+```
+- Where functions have arguments, components have props: Props let you pass data to your components.
+
+### Passing Props
+
+### Receiving Props
+- One important thing to know is that props are *read-only*: components that receive props must not change them.
+- In React, data flows one way: props are read-only, and can only be passed down to children.
+
+### Communicating with Parent Components
+- If you can’t change props, but you need to communicate something up to a parent component, how does that work?
+- If a child needs to send data to its parent, the parent can send down a function as a prop.
+- The child component can call the function whenever it needs to send up data or notify the parent that something happened.
+- One place where it’s common to pass functions as props is for handling events, which we'll learn about more later.
+
 ---
 
 ## Lesson: State in Function Components
