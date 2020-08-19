@@ -78,6 +78,46 @@ React.createElement(
 - When we build a list of child elements by iterating through an array, React likes each of those elements to have a key property, which helps it update the DOM efficiently. To fix our example, make this change:  
 `React.createElement("li", { key: i }, ingredient)`
 
+### Components
+**What we've already learned**
+- No matter its size, its contents, or what technologies are used to create it, a user interface is made up of parts, like buttons, lists, and headings.
+- All of these parts, when put together, make up a user interface.
+
+**React**
+- In React, we describe each of these parts as a "component".
+- Components allow us to reuse the same structure, and then we can populate those structures with different sets of data.
+- When considering a user interface you want to build with React, look for opportunities to break down your elements into reusable pieces.
+- We’ll create a component by writing a function, which will return a reusable part of a user interface. For example, here's a component with a name of "IngredientsList":  
+```
+function IngredientsList() {
+  return React.createElement(
+    "ul",
+    { className: "ingredients" },
+    React.createElement("li", null, "1 cup unsalted butter"),
+    React.createElement("li", null, "1 cup crunchy peanut butter"),
+    React.createElement("li", null, "1 cup brown sugar"),
+    React.createElement("li", null, "1 cup white sugar"),
+    React.createElement("li", null, "2 eggs"),
+    React.createElement("li", null, "2.5 cups all purpose flour"),
+    React.createElement("li", null, "1 teaspoon baking powder")
+  );
+}
+```
+- This function outputs elements that look like this:  
+```
+<IngredientsList>
+  <ul className="ingredients">
+    <li>1 cup unsalted butter</li>
+    <li>1 cup crunchy peanut butter</li>
+    <li>1 cup brown sugar</li>
+    <li>1 cup white sugar</li>
+    <li>2 eggs</li>
+    <li>2.5 cups all purpose flour</li>
+    <li>1 teaspoon baking powder</li>
+  </ul>
+</IngredientsList>
+```
+
 ---
 
 ## Lesson: JSX
