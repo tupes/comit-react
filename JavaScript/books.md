@@ -109,3 +109,61 @@
   - tagged template
   - object literals
   - destructuring
+
+## JavaScript: The Definitive Guide
+- Types, Values, and Variables
+  - overview and definitions
+  - numbers
+  - text
+  - boolean values
+  - null and undefined
+  - symbols
+  - the global object
+  - primitive values and object references
+  - type conversions
+  - variable declaration and assignment
+- Expressions and Operators
+  - primary expressions
+  - object and array initializers
+  - function definition expressions
+  - property access expressions
+  - invocation expressions
+  - object creation expressions
+  - operator overview
+  - arithmetic expressions
+  - relational expressions
+  - logical expressions
+  - assignment expressions
+  - evaluation expressions
+  - miscellaneous operators
+- Statements
+  - expression statements
+  - compound and empty statements
+  - conditionals
+  - loops
+  - jumps
+  - miscellaneous statements
+  - declarations
+- Objects
+  - introduction
+  - creating objects
+  - querying and setting properties
+  - deleting properties
+  - testing properties
+  - enumerating properties
+  - extending objects
+  - serializing objects
+  - object methods
+  - object literals
+- Arrays
+  - creating arrays
+  - reading and writing array elements
+  - sparse arrays
+  - array length
+  - adding and deleting array elements
+  - iterating arrays
+  - multidimensional arrays
+  - array methods
+  - array-like objects
+  - strings as arrays
+- Functions
