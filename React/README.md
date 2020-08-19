@@ -129,6 +129,41 @@ function IngredientsList() {
 - Pure React Chapter 3: JSX
 - Pure React Chapter 4: Working with JSX
 
+### React Elements as JSX
+- Using the `createElement` function is a good way to see how React works, but as React developers, that’s not what we do. 
+- As we saw in the example above, using `createElement` results in complex, barely readable trees of JavaScript code. 
+- In order to work efficiently with React, we need one more thing: JSX.
+- JSX is a JavaScript extension that allows us to define React elements using a tag-based syntax directly within our JavaScript code.
+- JSX is just another way of creating React elements, so you don’t have to pull your hair out looking for the missing comma in a complex `createElement` call.
+- JSX was created to provide a concise syntax for creating complex DOM trees with attributes, and to make React more readable like HTML and XML.
+- An element’s type is specified with a tag, and the tag’s attributes represent the properties.
+- The element’s children can be added between the opening and closing tags.
+- JSX allows you to add components as children of other components. For example:  
+```
+<IngredientsList>
+  <Ingredient />
+  <Ingredient />
+  <Ingredient />
+</IngredientsList>
+```
+- JavaScript expressions are wrapped in curly braces and indicate where variables will be evaluated and their resulting values returned. In this example, the `title` variable will be evaluated and its value returned:  
+`<h1>{title}</h1>`
+- The JavaScript that’s added in between the curly braces will get evaluated, which means that operations such as concatenation or addition will occur, and functions will be invoked:  
+```
+<h1>{"Hello" + title}</h1>
+<h1>{title.toLowerCase().replace}</h1>
+```
+- JSX is JavaScript, so you can incorporate JSX directly inside of JavaScript functions. For example, you can map an array to JSX
+elements:  
+```
+<ul>
+  {props.ingredients.map((ingredient, i) => (
+    <li key="{i}">{ingredient}</li>
+  ))}
+</ul>
+```
+- JSX can’t be interpreted by a browser, so all JSX must be converted into `createElement` calls by a tool named "Babel", which is handled for us by React.
+
 --- 
 
 ## Lesson: Props
