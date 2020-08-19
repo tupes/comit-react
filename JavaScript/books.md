@@ -1,3 +1,134 @@
+# Topics
+
+## Data Types and Variables
+- data types
+- type conversions
+- variables
+
+## Statements, Expressions, and Operators
+- statements
+- expressions
+- operators
+  - comparison operators
+  - logical operators
+
+## Conditionals
+- Concepts and Definitions
+  - "truthy" and "falsy" values
+- Basics
+  - if/else statements
+- How-To Guide
+  - ternary operator
+  - short-circuiting
+- Optional
+  - switch statements
+
+## Loops
+- Basics
+  - while loop
+  - for loop
+  - continue and break
+- Best-Practices
+  - for-of loop
+    - arrays
+    - objects
+    - strings
+- Optional
+  - for-in loop (advanced, optional)
+  - do-while loop (optional)
+
+## Arrays
+- Concepts and Definitions
+  - ordered data
+  - elements
+  - index
+- Basics
+  - creation
+  - indexing and updating elements
+  - methods
+- Best-Practices
+  - spread operator
+  - iteration
+    - forEach
+    - map
+    - filter
+- Optional
+    - reduce
+
+## Objects
+- Concepts and Definitions
+  - key-value data
+  - key
+  - value
+- Basics
+  - creation
+  - accessing and updating elements
+- How-To Guide
+  - spread operator
+  - destructuring
+  - methods
+- Optional
+  - prototype
+
+## Functions
+- Concepts and Definitions
+  - purpose
+  - parameters
+  - body
+  - invocation
+  - arguments
+  - return value
+- How-To Guide
+  - creation
+    - function declaration
+    - function expression
+    - arrow function
+  - function values
+  - callbacks
+  - default parameters
+  - rest parameter
+- Optional
+  - closures
+  - recursion
+  - partial application
+
+## Spread Operator
+- purpose
+- for copying/modifying
+  - arrays
+  - objects
+- for gathering
+
+## Iteration
+- purpose
+- for loops
+- for-of loops
+- forEach method
+- map method
+- filter method
+
+## JavaScript for React
+- importance of expressions
+  - JSX
+  - ternary operator
+  - short-circuiting
+- iteration
+  - map method
+  - filter method
+- immutability
+  - spread operator
+  - ternary operator
+  - array iteration methods
+- function values
+  - event handlers
+- convenience
+  - function expressions and arrow functions
+  - template strings
+  - destructuring
+  - object literals
+
+# Books
+
 ## The JavaScript Language
 - Fundamentals
   - variables
