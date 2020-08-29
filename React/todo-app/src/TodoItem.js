@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import PropTypes from "prop-types";
 
+import { ItemsContext } from "./App";
+
 export const TodoItem = (props) => {
+  const itemsContext = useContext(ItemsContext);
+
   return (
     <tr>
       <td>{props.item.description}</td>
@@ -9,11 +13,11 @@ export const TodoItem = (props) => {
         <input
           type="checkbox"
           checked={props.item.isComplete}
-          onChange={() => props.handleCompleteClick(props.item.id)}
+          onChange={() => itemsContext.handleCompleteClick(props.item.id)}
         />
       </td>
       <td>
-        <button onClick={() => props.handleDeleteClick(props.item.id)}>
+        <button onClick={() => itemsContext.handleDeleteClick(props.item.id)}>
           Delete
         </button>
       </td>

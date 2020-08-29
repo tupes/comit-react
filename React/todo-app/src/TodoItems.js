@@ -10,14 +10,7 @@ export const TodoItems = (props) => {
       <table>
         <tbody>
           {props.items.map((item) => {
-            return (
-              <TodoItem
-                key={item.id}
-                item={item}
-                handleCompleteClick={props.handleCompleteClick}
-                handleDeleteClick={props.handleDeleteClick}
-              />
-            );
+            return <TodoItem key={item.id} item={item} />;
           })}
         </tbody>
       </table>

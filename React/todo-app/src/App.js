@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, createContext } from "react";
 
 import { AddTodoItem } from "./AddTodoItem";
 import { TodoItems } from "./TodoItems";
+
+export const ItemsContext = createContext();
 
 export const App = () => {
   const [description, setDescription] = useState("");
@@ -54,19 +56,17 @@ export const App = () => {
         handleSubmit={handleSubmit}
       />
 
-      <TodoItems
-        header="Active Items"
-        items={items.filter((item) => !item.isComplete)}
-        handleCompleteClick={handleCompleteClick}
-        handleDeleteClick={handleDeleteClick}
-      />
+      <ItemsContext.Provider value={{ handleCompleteClick, handleDeleteClick }}>
+        <TodoItems
+          header="Active Items"
+          items={items.filter((item) => !item.isComplete)}
+        />
 
-      <TodoItems
-        header="Completed Items"
-        items={items.filter((item) => item.isComplete)}
-        handleCompleteClick={handleCompleteClick}
-        handleDeleteClick={handleDeleteClick}
-      />
+        <TodoItems
+          header="Completed Items"
+          items={items.filter((item) => item.isComplete)}
+        />
+      </ItemsContext.Provider>
     </div>
   );
 };
